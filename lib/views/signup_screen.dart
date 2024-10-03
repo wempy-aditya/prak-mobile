@@ -38,7 +38,7 @@ class SignupScreen extends StatelessWidget {
                     Container(
                       alignment: Alignment.center,
                       child: SvgPicture.asset(
-                        'assets/images/signup.svg',
+                        'assets/images/logo_rm_bg.svg',
                         height: SizeManager.svgImageSizeMed,
                         width: SizeManager.svgImageSizeMed,
                         fit: BoxFit.scaleDown,

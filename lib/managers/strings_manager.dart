@@ -1,77 +1,77 @@
 class StringsManager {
-  static const String appName = 'TopShop';
+  static const String appName = 'INITURE';
   static const String firstTimeLogin =
-      'Account verification email is sent to you. Please verify your account to login.';
-  static const String firstTimeLoginTitle = 'First Login to Proceed';
-  static const String loginTxt = 'Login';
-  static const String loginAccTxt = 'Login to your account';
-  static const String emailTxt = 'Email Address';
-  static const String passwordTxt = 'Password';
-  static const String forgotPassTxt = 'Forgot Password?';
-  static const String noAccTxt = 'Don\'t have an account? ';
-  static const String alreadyHaveAccTxt = 'Already have an account? ';
-  static const String welcomTxt = 'Welcome Back';
-  static const String offlineTxt = "You're Offline.";
-  static const String myProductsTxt = "My Products";
-  static const String allProductsTxt = "All Products";
-  static const String myCartTxt = "My Cart";
-  static const String myOrdersTxt = "My Orders";
-  static const String favouriteTxt = "Favourite Products";
-  static const String ordersPlacedTxt = "Orders Log";
-  static const String addressTxt = "Address";
-  static const String addProdTxt = "Add Product";
-  static const String editProdTxt = "Edit Product";
-  static const String prodNameTxt = "Product Name";
-  static const String prodImgTxt = "Product Image";
-  static const String priceTxt = "Price";
-  static const String stockQtyTxt = "Stock Quantity";
+      'Email verifikasi akun telah dikirim. Silakan verifikasi akun Anda untuk login.';
+  static const String firstTimeLoginTitle = 'Login Pertama untuk Melanjutkan';
+  static const String loginTxt = 'Masuk';
+  static const String loginAccTxt = 'Masuk ke akun Anda';
+  static const String emailTxt = 'Alamat Email';
+  static const String passwordTxt = 'Kata Sandi';
+  static const String forgotPassTxt = 'Lupa Kata Sandi?';
+  static const String noAccTxt = 'Belum punya akun? ';
+  static const String alreadyHaveAccTxt = 'Sudah punya akun? ';
+  static const String welcomTxt = 'Selamat Datang Kembali';
+  static const String offlineTxt = "Anda Sedang Offline.";
+  static const String myProductsTxt = "Produk Saya";
+  static const String allProductsTxt = "Semua Produk";
+  static const String myCartTxt = "Keranjang Saya";
+  static const String myOrdersTxt = "Pesanan Saya";
+  static const String favouriteTxt = "Produk Favorit";
+  static const String ordersPlacedTxt = "Log Pesanan";
+  static const String addressTxt = "Alamat";
+  static const String addProdTxt = "Tambah Produk";
+  static const String editProdTxt = "Edit Produk";
+  static const String prodNameTxt = "Nama Produk";
+  static const String prodImgTxt = "Gambar Produk";
+  static const String priceTxt = "Harga";
+  static const String stockQtyTxt = "Jumlah Stok";
 
-  static const String descriptionTxt = 'Description';
-  static const String registerNowTxt = 'Create your account';
-  static const String noProducttTxt = "No product found!";
+  static const String descriptionTxt = 'Deskripsi';
+  static const String registerNowTxt = 'Buat akun Anda';
+  static const String noProducttTxt = "Tidak ada produk ditemukan!";
 
   static const String offlineMsgTxt =
-      "No Internet Connection. Make sure that Wifi or Mobile data is turned on, then try again.";
-  static const String openWifiTxt = "Open Wifi Settings";
-  static const String openDataTxt = "Open Data Settings";
+      "Tidak ada koneksi Internet. Pastikan Wifi atau data seluler Anda aktif, lalu coba lagi.";
+  static const String openWifiTxt = "Buka Pengaturan Wifi";
+  static const String openDataTxt = "Buka Pengaturan Data";
 
-  static const String registerTxt = 'Register';
-  static const String nameTxt = 'Full Name';
-  static const String phoneTxt = 'Phone number';
-  static const String changePasswordTxt = 'Change password';
-  static const String oldPasswordTxt = 'Old Password';
-  static const String newPasswordTxt = 'New Password';
-  static const String newRePasswordTxt = 'Re-Enter Pass';
-  static const String privacyPolicyTxt = 'Privacy and policy';
-  static const String updateProfileTxt = 'Update Profile';
+  static const String registerTxt = 'Daftar';
+  static const String nameTxt = 'Nama Lengkap';
+  static const String phoneTxt = 'Nomor Telepon';
+  static const String changePasswordTxt = 'Ubah Kata Sandi';
+  static const String oldPasswordTxt = 'Kata Sandi Lama';
+  static const String newPasswordTxt = 'Kata Sandi Baru';
+  static const String newRePasswordTxt = 'Masukkan Ulang Kata Sandi';
+  static const String privacyPolicyTxt = 'Kebijakan Privasi';
+  static const String updateProfileTxt = 'Perbarui Profil';
 
   // Hint Text
-  static const String emailHintTxt = 'abc@gmail.com';
-  static const String phoneHintTxt = '0331XXXXXXX';
+  static const String emailHintTxt = 'contoh@gmail.com';
+  static const String phoneHintTxt = '0123XXXXXXX';
 }
 
 class ErrorManager {
   // form field error
-  static const String kProductNameNullError = 'Please enter product name';
-  static const String kaddressNullError = 'Please enter your address';
-  static const String kUserNameNullError = 'Please enter your name';
+  static const String kProductNameNullError = 'Silakan masukkan nama produk';
+  static const String kaddressNullError = 'Silakan masukkan alamat Anda';
+  static const String kUserNameNullError = 'Silakan masukkan nama Anda';
   static const String kInvalidPriceError =
-      'Please enter a price greater than 0.';
+      'Silakan masukkan harga yang lebih besar dari 0.';
   static const String kInvalidStockError =
-      'Please enter a stock greater than 0.';
-  static const String kFieldEmptyError = 'Please Enter a value';
-  static const String kPriceEmptyError = 'Please enter a valid price.';
-  static const String kStockEmptyError = 'Please enter a valid price.';
-  static const String kEmailNullError = 'Please Enter a valid email';
-  static const String kPhoneNullError = 'Please Enter a phone number';
-  static const String kDescriptionNullError = 'Please enter description';
+      'Silakan masukkan stok yang lebih besar dari 0.';
+  static const String kFieldEmptyError = 'Silakan masukkan nilai';
+  static const String kPriceEmptyError = 'Silakan masukkan harga yang valid.';
+  static const String kStockEmptyError = 'Silakan masukkan stok yang valid.';
+  static const String kEmailNullError = 'Silakan masukkan email yang valid';
+  static const String kPhoneNullError = 'Silakan masukkan nomor telepon';
+  static const String kDescriptionNullError = 'Silakan masukkan deskripsi';
 
-  static const String kPasswordNullError = 'Please enter a password';
-  static const String kPasswordNotMatchingError = 'Passwords do not Match';
+  static const String kPasswordNullError = 'Silakan masukkan kata sandi';
+  static const String kPasswordNotMatchingError = 'Kata sandi tidak cocok';
   static const String kPasswordShortError =
-      'Please Enter a Password of at least 8 digit';
+      'Silakan masukkan kata sandi minimal 8 karakter';
   static const String kPasswordNotSameError =
-      'Confirm Password should be same as New Password';
+      'Konfirmasi Kata Sandi harus sama dengan Kata Sandi Baru';
 
-  static const String kGenderNullError = 'Please Select a Gender';
+  static const String kGenderNullError = 'Silakan pilih jenis kelamin';
 }

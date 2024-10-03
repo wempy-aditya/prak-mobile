@@ -64,7 +64,7 @@ class ProductsCard extends StatelessWidget {
                   Hero(
                     tag: prod.id,
                     child: SizedBox(
-                      height: Get.height * 0.13,
+                      height: Get.height * 0.1,
                       width: Get.width * 0.4,
                       child: Image.network(
                         prod.imageUrl,
@@ -113,7 +113,7 @@ class ProductsCard extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.start,
                         children: [
                           Text(
-                            'Rs ${prod.price}',
+                            'Rp ${prod.price}',
                             style: TextStyle(
                               fontSize: 14,
                               fontWeight: FontWeightManager.medium,
@@ -144,7 +144,7 @@ class ProductsCard extends StatelessWidget {
                   else
                     Center(
                       child: Text(
-                        'Rs ${prod.price}',
+                        'RP ${prod.price}',
                         style: TextStyle(
                           fontSize: 14,
                           fontWeight: FontWeightManager.medium,

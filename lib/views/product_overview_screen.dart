@@ -117,7 +117,7 @@ class ProductOverviewScreen extends StatelessWidget {
                                 ),
                               ),
                               Txt(
-                                text: "Rs ${product.price.toString()}",
+                                text: "Rp ${product.price.toString()}",
                                 fontWeight: FontWeightManager.semibold,
                                 fontSize: FontSize.textFontSize,
                                 fontFamily: FontsManager.fontFamilyPoppins,

@@ -2,8 +2,8 @@ import 'dart:ui';
 
 class ColorsManager {
   static const Color primaryColor = Color(0xFF141312);
-  static const Color secondaryColor = Color(0xFFef5b5b);
-  static const Color lightSecondaryColor = Color.fromARGB(255, 224, 116, 116);
+  static const Color secondaryColor = Color(0xFF8e5749); // Warna coklat
+  static const Color lightSecondaryColor = Color.fromARGB(255, 224, 189, 149);
   static const Color scaffoldBgColor = Color.fromARGB(255, 224, 219, 219);
   static const Color backgroundColor = Color(0xFFd9d8d8);
   static const Color brownColor = Color(0xFF8e5749);
@@ -17,8 +17,8 @@ class ColorsManager {
 
 class DarkColorsManager {
   static const Color primaryColor = Color(0xFF0A0908);
-  static const Color secondaryColor = Color(0xFFD14949);
-  static const Color lightSecondaryColor = Color.fromARGB(255, 171, 85, 85);
+  static const Color secondaryColor = Color(0xFF694C40); // Warna coklat
+  static const Color lightSecondaryColor = Color.fromARGB(255, 189, 158, 121);
   static const Color scaffoldBgColor = Color.fromARGB(255, 0, 0, 0);
   static const Color backgroundColor = Color.fromARGB(255, 32, 33, 36);
   static const Color cardBackgroundColor = Color.fromARGB(255, 53, 53, 52);

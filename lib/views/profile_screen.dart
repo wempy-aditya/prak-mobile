@@ -200,7 +200,7 @@ class ProfileScreen extends StatelessWidget {
                       const EdgeInsets.only(bottom: PaddingManager.paddingXS),
                   alignment: Alignment.bottomCenter,
                   child: Txt(
-                    text: "Powered By E-Commerce Pakistan ©",
+                    text: "Powered By INITURE APP",
                     color: isDarkMode
                         ? DarkColorsManager.whiteColor
                         : ColorsManager.primaryColor,
