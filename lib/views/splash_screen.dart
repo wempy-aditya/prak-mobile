@@ -32,21 +32,19 @@ class _SplashScreenState extends State<SplashScreen> {
     return SafeArea(
       child: Scaffold(
         body: Stack(
-          fit: StackFit.expand, // Membuat gambar sesuai dengan ukuran layar
+          fit: StackFit.expand,
           children: [
-            // Gambar background
             Image.asset(
-              'assets/images/bg2.jpg', // Ganti dengan path gambar yang ingin digunakan
-              fit: BoxFit.cover, // Menyesuaikan gambar dengan ukuran layar
+              'assets/images/bg2.jpg',
+              fit: BoxFit.cover,
             ),
-            // Konten di atas gambar
             Center(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   SvgPicture.asset(
-                    'assets/images/logo_rm_bg.svg', // Ganti dengan path gambar SVG
-                    height: SizeManager.sizeXL * 8, // Atur ukuran gambar
+                    'assets/images/logo_rm_bg.svg',
+                    height: SizeManager.sizeXL * 8,
                     width: SizeManager.sizeXL * 8,
                   ),
                   Txt(

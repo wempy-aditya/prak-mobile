@@ -149,7 +149,7 @@ class ProductOverviewScreen extends StatelessWidget {
                                     margin: const EdgeInsets.only(
                                         bottom: MarginManager.marginXS),
                                     child: const Txt(
-                                      text: 'Total Stock Left',
+                                      text: 'Total Stok Tersisa',
                                       fontWeight: FontWeightManager.medium,
                                       fontSize: FontSize.textFontSize,
                                       fontFamily:
@@ -205,9 +205,9 @@ class ProductOverviewScreen extends StatelessWidget {
                           backgroundColor: isDarkMode
                               ? DarkColorsManager.scaffoldBgColor
                               : ColorsManager.scaffoldBgColor,
-                          title: const Text('Confirm Delete Product'),
+                          title: const Text('Konfirmasi Hapus Produk'),
                           content: const Text(
-                            'Are you sure you want to delete the product?',
+                            'Apakah Anda yakin ingin menghapus produk?',
                           ),
                           actions: [
                             TextButton(

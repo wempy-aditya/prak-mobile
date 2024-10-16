@@ -2,6 +2,7 @@ class StringsManager {
   static const String appName = 'INITURE';
   static const String firstTimeLogin =
       'Email verifikasi akun telah dikirim. Silakan verifikasi akun Anda untuk login.';
+  static const String guestUserTxt = 'Masuk Sebagai Guest';
   static const String firstTimeLoginTitle = 'Login Pertama untuk Melanjutkan';
   static const String loginTxt = 'Masuk';
   static const String loginAccTxt = 'Masuk ke akun Anda';

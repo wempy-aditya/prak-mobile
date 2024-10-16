@@ -84,7 +84,7 @@ class ProductController extends GetxController {
         await ImagePicker().pickImage(source: ImageSource.gallery);
     if (pickedImage != null) {
       Get.snackbar('Product Picture Added!',
-          'You have successfully added your product picture!');
+          'Anda telah berhasil menambahkan gambar produk!');
     }
     _pickedImage.value = File(pickedImage!.path);
     update();
@@ -113,7 +113,7 @@ class ProductController extends GetxController {
       Get.back();
       Get.snackbar(
         'Success!',
-        'Product added successfully.',
+        'Produk berhasil ditambahkan.',
       );
       resetFields();
     }
@@ -177,7 +177,7 @@ class ProductController extends GetxController {
           ProductOverviewScreen(product: product, controller: controller));
       Get.snackbar(
         'Product Updated.',
-        'You have successfully updated your product.',
+        'Anda telah berhasil memperbarui produk.',
       );
       resetFields();
     });
@@ -199,10 +199,10 @@ class ProductController extends GetxController {
 
         if (productIds.contains(product.id)) {
           productIds.remove(product.id);
-          Get.snackbar('Success!', 'Product removed from favorites.');
+          Get.snackbar('Success!', 'Produk dihapus dari favorit.');
         } else {
           productIds.add(product.id);
-          Get.snackbar('Success!', 'Product added to favorites.');
+          Get.snackbar('Success!', 'Produk ditambahkan ke favorit.');
         }
 
         await userDocRef.update({'productIds': productIds});
@@ -210,7 +210,7 @@ class ProductController extends GetxController {
         await userDocRef.set({
           'productIds': [product.id]
         });
-        Get.snackbar('Success!', 'Product added to favorites.');
+        Get.snackbar('Success!', 'Produk ditambahkan ke favorit.');
       }
 
       fetchFavoriteProducts(firebaseAuth.currentUser!.uid);

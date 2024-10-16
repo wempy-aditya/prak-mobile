@@ -6,3 +6,5 @@ export '../../controllers/product_controller.dart';
 export '../../controllers/profile_controller.dart';
 export '../../controllers/search_controller.dart';
 export '../../controllers/theme_controller.dart';
+export '../../controllers/guest_controller.dart';
+export '../../controllers/guest_detail_controller.dart';

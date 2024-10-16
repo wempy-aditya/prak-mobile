@@ -10,3 +10,4 @@ export '../../views/profile_screen.dart';
 export '../../views/signup_screen.dart';
 export '../../views/splash_screen.dart';
 export '../../views/seller_home_screen.dart';
+export '../../views/guest_user_screen.dart';

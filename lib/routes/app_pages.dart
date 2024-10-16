@@ -41,5 +41,9 @@ class AppPages {
       name: AppRoutes.addProduct,
       page: () => const AddProductScreen(),
     ),
+    GetPage(
+      name: AppRoutes.guestUser,
+      page: () => GuestUserScreen(),
+    ),
   ];
 }

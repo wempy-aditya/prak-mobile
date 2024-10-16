@@ -13,4 +13,6 @@ class AppRoutes {
   static const String sellerOrders = OrdersScreen.routeName;
   static const String orders = OrdersHistoryScreen.routeName;
   static const String addProduct = AddProductScreen.routeName;
+
+  static const String guestUser = GuestUserScreen.routeName;
 }

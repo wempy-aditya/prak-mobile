@@ -7,6 +7,7 @@ import '../utils/exports/widgets_exports.dart';
 import '../utils/size_config.dart';
 import '../widgets/packages/group_radio_buttons/src/radio_button_field.dart';
 import 'signup_screen.dart';
+import 'guest_user_screen.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
@@ -177,7 +178,7 @@ class LoginScreen extends StatelessWidget {
                               controller.emailController.text.trim());
                         } else {
                           Get.snackbar('Invalid',
-                              'Please provide email first to reset password.');
+                              'Harap isi email terlebih dahulu untuk mengatur ulang kata sandi.');
                         }
                       },
                       child: Container(
@@ -253,6 +254,22 @@ class LoginScreen extends StatelessWidget {
                         ),
                       ],
                     ),
+                    const SizedBox(
+                      height: SizeManager.sizeL,
+                    ),
+                    InkWell(
+                      onTap: () {
+                        controller.clearfields();
+                        Get.offAll(
+                            GuestUserScreen()); // mengarah ke halaman guest
+                      },
+                      child: const Txt(
+                        text: StringsManager.guestUserTxt,
+                        color: ColorsManager.lightSecondaryColor,
+                        fontWeight: FontWeightManager.bold,
+                        fontSize: FontSize.textFontSize,
+                      ),
+                    ),
                   ],
                 ),
               ),
@@ -270,7 +287,7 @@ class LoginScreen extends StatelessWidget {
         onWillPop: () async => false,
         child: AlertDialog(
           title: Txt(
-            text: "Verify your email",
+            text: "Verifikasi Email Anda",
             color: isDarkMode
                 ? DarkColorsManager.whiteColor
                 : ColorsManager.primaryColor,
@@ -279,7 +296,8 @@ class LoginScreen extends StatelessWidget {
             fontWeight: FontWeightManager.bold,
           ),
           content: Txt(
-            text: "An email is sent to you, please verify your account.",
+            text:
+                "Email telah dikirimkan kepada Anda, harap verifikasi akun Anda.",
             color: isDarkMode
                 ? DarkColorsManager.whiteColor
                 : ColorsManager.primaryColor,
@@ -297,12 +315,12 @@ class LoginScreen extends StatelessWidget {
                 } catch (e) {
                   Get.snackbar(
                     'Error',
-                    'Failed to send email verification: $e',
+                    'Gagal mengirim verifikasi email: $e',
                   );
                 }
               },
               child: const Txt(
-                text: "Resend Email",
+                text: "Kirim Ulang Email",
                 color: ColorsManager.secondaryColor,
                 fontFamily: FontsManager.fontFamilyPoppins,
                 fontSize: FontSize.subTitleFontSize,
