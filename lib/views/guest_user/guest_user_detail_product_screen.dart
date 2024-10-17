@@ -1,7 +1,7 @@
-import 'package:e_commerce_shopping_app/views/guest_detail_webview.dart';
+import 'package:e_commerce_shopping_app/views/guest_user/guest_detail_webview.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../utils/exports/models_exports.dart';
+import '../../utils/exports/models_exports.dart';
 
 class GuestUserDetailProductScreen extends StatelessWidget {
   final Guest guest;
@@ -29,7 +29,7 @@ class GuestUserDetailProductScreen extends StatelessWidget {
               ),
               const SizedBox(height: 10),
               Text(
-                'Price: \$${guest.price}',
+                'Harga: \$${guest.price}',
                 style: Theme.of(context).textTheme.subtitle1,
               ),
               const SizedBox(height: 10),

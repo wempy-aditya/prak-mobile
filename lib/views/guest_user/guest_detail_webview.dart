@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
-import '../utils/exports/models_exports.dart';
-import '../utils/exports/controllers_exports.dart';
+import '../../utils/exports/models_exports.dart';
+import '../../utils/exports/controllers_exports.dart';
 
 class guestDetailWebview extends StatelessWidget {
   final Guest guest;

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../models/product_model.dart';
-import '../utils/exports/controllers_exports.dart';
-import '../utils/exports/managers_exports.dart';
-import '../utils/exports/widgets_exports.dart';
+import '../../models/product_model.dart';
+import '../../utils/exports/controllers_exports.dart';
+import '../../utils/exports/managers_exports.dart';
+import '../../utils/exports/widgets_exports.dart';
 
 class FavouriteScreen extends StatelessWidget {
   FavouriteScreen({super.key});

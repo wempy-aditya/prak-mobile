@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../utils/exports/controllers_exports.dart';
-import '../utils/exports/managers_exports.dart';
-import '../utils/exports/widgets_exports.dart';
-import '../utils/utils.dart';
+import '../../utils/exports/controllers_exports.dart';
+import '../../utils/exports/managers_exports.dart';
+import '../../utils/exports/widgets_exports.dart';
+import '../../utils/utils.dart';
 
 class CartScreen extends StatelessWidget {
   CartScreen({Key? key, required this.authController}) : super(key: key);

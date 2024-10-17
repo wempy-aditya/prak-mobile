@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 
-import '../controllers/auth_controller.dart';
-import '../utils/exports/managers_exports.dart';
-import '../utils/exports/widgets_exports.dart';
-import '../utils/size_config.dart';
+import '../../controllers/auth_controller.dart';
+import '../../utils/exports/managers_exports.dart';
+import '../../utils/exports/widgets_exports.dart';
+import '../../utils/size_config.dart';
 import 'login_screen.dart';
 
 class SignupScreen extends StatelessWidget {

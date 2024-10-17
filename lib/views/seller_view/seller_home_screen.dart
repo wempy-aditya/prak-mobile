@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../controllers/search_controller.dart' as ctrl;
-import '../utils/exports/controllers_exports.dart';
-import '../utils/exports/managers_exports.dart';
-import '../utils/exports/widgets_exports.dart';
-import '../widgets/add_product_template.dart';
+import '../../controllers/search_controller.dart' as ctrl;
+import '../../utils/exports/controllers_exports.dart';
+import '../../utils/exports/managers_exports.dart';
+import '../../utils/exports/widgets_exports.dart';
+import '../../widgets/add_product_template.dart';
 import 'add_product_screen.dart';
 
 class SellerHomeScreen extends StatefulWidget {

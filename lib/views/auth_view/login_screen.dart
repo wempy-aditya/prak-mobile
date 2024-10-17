@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../controllers/auth_controller.dart';
-import '../utils/exports/managers_exports.dart';
-import '../utils/exports/widgets_exports.dart';
-import '../utils/size_config.dart';
-import '../widgets/packages/group_radio_buttons/src/radio_button_field.dart';
+import '../../controllers/auth_controller.dart';
+import '../../utils/exports/managers_exports.dart';
+import '../../utils/exports/widgets_exports.dart';
+import '../../utils/size_config.dart';
+import '../../widgets/packages/group_radio_buttons/src/radio_button_field.dart';
 import 'signup_screen.dart';
-import 'guest_user_screen.dart';
+import '../guest_user/guest_user_screen.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
